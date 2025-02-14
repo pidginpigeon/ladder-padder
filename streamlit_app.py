@@ -11,7 +11,8 @@ st.text(
        /     |
       /      |
      /       |
-    /        |\n‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾"""
+    /        |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾"""
 )
 
 h_min = st.number_input("Height of 1st floor: ")
