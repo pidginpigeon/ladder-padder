@@ -3,8 +3,7 @@ import streamlit as st
 
 st.title("Ladder Padder")
 st.write(
-    """Welcome to Ladder Padder\n\n             |‾‾‾‾\n             |
-            /|
+    """Welcome to Ladder Padder\n\n             |‾‾‾‾\n             |\n            /|
            / |
           /  |
          /   |
@@ -26,6 +25,6 @@ d_min = (h_min + el) / np.tan(theta_max)
 d_max = (h_max + el) / np.tan(theta_min)
 width = d_max - d_min
 
-st.write("Minimum ladder pad distance: ", d_min)
-st.write("Maximum ladder pad distance: ", d_max)
-st.write("Ladder pad width: ", width)
+st.write("Minimum ladder pad distance: ", round(d_min, 2))
+st.write("Maximum ladder pad distance: ", round(d_max, 2))
+st.write("Ladder pad width: ", round(width, 2))
