@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 
 st.title("Ladder Padder")
-st.write(
+st.text(
     """Welcome to Ladder Padder\n\n             |‾‾‾‾\n             |\n            /|
            / |
           /  |
