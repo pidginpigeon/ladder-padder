@@ -12,8 +12,7 @@ st.write(
        /     |
       /      |
      /       |
-    /        |
-‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+    /        |\n‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 """
 )
 
@@ -29,5 +28,5 @@ d_max = (h_max + el) / np.tan(theta_min)
 width = d_max - d_min
 
 st.write("Minimum ladder pad distance: ", d_min)
-st.write("Maximum ladder pad distance: ", d_min)
+st.write("Maximum ladder pad distance: ", d_max)
 st.write("Ladder pad width: ", width)
