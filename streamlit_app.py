@@ -2,8 +2,23 @@ import numpy as np
 import streamlit as st
 
 st.title("Ladder Padder")
-st.text(
-    """Welcome to Ladder Padder\n\n             |‾‾‾‾\n             |\n            /|\n            / |\n            /  |\n            /   |\n            /    |\n        /     |\n        /      |\n        /       |\n        /        |\n    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾"""
+st.code(
+    """
+    Welcome to Ladder Padder
+    
+                 |‾‾‾‾
+                 |
+                /|
+               / |
+              /  |
+             /   |
+            /    |
+           /     |
+          /      |
+         /       |
+        /        |
+    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾""",
+    None,
 )
 
 h_min = st.number_input("Height of lowest windowsill: ")
