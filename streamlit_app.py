@@ -4,15 +4,15 @@ import streamlit as st
 st.title("Ladder Padder")
 st.text(
     """Welcome to Ladder Padder\n\n             |‾‾‾‾\n             |\n            /|
-           / |
-          /  |
-         /   |
-        /    |
-       /     |
-      /      |
-     /       |
-    /        |
-‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾"""
+            / |
+            /  |
+            /   |
+            /    |
+        /     |
+        /      |
+        /       |
+        /        |
+    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾"""
 )
 
 h_min = st.number_input("Height of 1st floor: ")
