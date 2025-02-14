@@ -23,7 +23,7 @@ Welcome to Ladder Padder
 
 h_min = st.number_input("Height of 1st floor: ")
 h_max = st.number_input("Height of top floor: ")
-el = st.number_inputinput("Distance below grade: ")
+el = st.number_input("Distance below grade: ")
 
 theta_min = np.deg2rad(st.number_input("Minimum ladder angle", value=70))
 theta_max = np.deg2rad(st.number_input("Maximum ladder angle", value=77.6))
