@@ -2,12 +2,8 @@ import numpy as np
 import streamlit as st
 
 st.title("Ladder Padder")
-st.text(
-    """
-Welcome to Ladder Padder
-      
-             |‾‾‾‾
-             |
+st.write(
+    """Welcome to Ladder Padder\n\n             |‾‾‾‾\n             |
             /|
            / |
           /  |
